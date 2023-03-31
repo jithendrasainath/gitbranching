@@ -2,8 +2,8 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 mpg
-# My name is John Doe
-# My favorite color is blue
+# My name is Jithu
+# My favorite color is black
 # This is my coding that generates Boxplots for transmission types
 ggplot(data = mpg) +
   geom_boxplot(mapping = aes(x = drv, y = displ, fill = drv)) +
